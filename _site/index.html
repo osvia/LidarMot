@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>TemCap – Project Page</title>
+  <title>LidarMot – Project Page</title>
   <link rel="icon" type="image/png" href="./assets/images/Browser_Icon.png" />
   <!-- Tailwind (via CDN) -->
   <script src="https://cdn.tailwindcss.com"></script>
@@ -19,9 +19,7 @@
       <nav class="space-y-1">
         <a href="#abstract"   class="block hover:underline text-gray-700">Abstract</a>
         <a href="#method"     class="block hover:underline text-gray-700">Method</a>
-        <a href="#contributions"    class="block hover:underline text-gray-700">Contributions</a>
         <a href="#metrics"    class="block hover:underline text-gray-700">Metrics</a>
-        <a href="#impact"    class="block hover:underline text-gray-700">Impact</a>
         <a href="#resources"  class="block hover:underline text-gray-700">Resources</a>
         <a href="#acks"       class="block hover:underline text-gray-700">Acknowledgments</a>
         <a href="#citation"   class="block hover:underline text-gray-700">Citation</a>
@@ -32,8 +30,9 @@
       <div>
         <h3 class="font-semibold mb-1">Paper Links</h3>
         <ul class="list-disc list-inside space-y-1">
-          <li><a href="https://arxiv.org/pdf/2505.16594" class="text-blue-600 hover:underline">PDF (5.35 MB)</a></li>
-          <li><a href="https://arxiv.org/abs/2505.16594" class="text-blue-600 hover:underline">arXiv page</a></li>
+          <li><a href="https://arxiv.org/pdf/2505.12753" class="text-blue-600 hover:underline">PDF (1.79 MB)</a></li>
+          <li><a href="https://arxiv.org/abs/2505.12753" class="text-blue-600 hover:underline">arXiv page</a></li>
+          <li><a href="https://bmvc2025.bmva.org/proceedings/220/" class="text-blue-600 hover:underline">BMVC proceeding</a></li>
         </ul>
       </div>
     </div>
@@ -48,9 +47,7 @@
       <nav class="space-y-2 mb-6 text-sm leading-relaxed">
         <a href="#abstract"   class="block hover:underline text-gray-700">Abstract</a>
         <a href="#method"     class="block hover:underline text-gray-700">Method</a>
-        <a href="#contributions"    class="block hover:underline text-gray-700">Contributions</a>
         <a href="#metrics"    class="block hover:underline text-gray-700">Metrics</a>
-        <a href="#impact"    class="block hover:underline text-gray-700">Impact</a>
         <a href="#resources"  class="block hover:underline text-gray-700">Resources</a>
         <a href="#acks"       class="block hover:underline text-gray-700">Acknowledgments</a>
         <a href="#citation"   class="block hover:underline text-gray-700">Citation</a>
@@ -60,8 +57,9 @@
       <hr class="my-6">
       <h3 class="font-semibold mb-2 text-sm">Paper Links</h3>
       <ul class="list-disc list-inside space-y-1 text-sm leading-relaxed mb-6">
-        <li><a href="https://arxiv.org/pdf/2505.16594" class="text-blue-600 hover:underline">PDF (5.35 MB)</a></li>
-        <li><a href="https://arxiv.org/abs/2505.16594" class="text-blue-600 hover:underline">arXiv page</a></li>
+        <li><a href="https://arxiv.org/pdf/2505.12753" class="text-blue-600 hover:underline">PDF (1.79 MB)</a></li>
+        <li><a href="https://arxiv.org/abs/2505.12753" class="text-blue-600 hover:underline">arXiv page</a></li>
+        <li><a href="https://bmvc2025.bmva.org/proceedings/220/" class="text-blue-600 hover:underline">BMVC proceeding</a></li>
       </ul>
       <hr class="my-6">
     </aside>
@@ -72,20 +70,17 @@
       <!-- HERO -->
       <header class="text-center mb-12">
         <h1 class="text-4xl font-extrabold leading-tight">
-          Temporal Object Captioning for Street Scene Videos from LiDAR Tracks
+          LiDAR MOT-DETR: A LiDAR-based Two-Stage<br>Transformer for 3D Multiple Object Tracking
         </h1>
 
         <!-- AUTHORS -->
         <p class="text-sm text-gray-500 mt-3">
           <a href="https://osvia.github.io/team.html"
             class="text-blue-600 hover:underline" target="_blank"
-            rel="noopener noreferrer">Vignesh Gopinathan</a><sup>1,2</sup> •
-          <a href="mailto:urs.zimmermann[at]aptiv.com"
+            rel="noopener noreferrer">Martha Teiko Teye</a><sup>1,2</sup> •
+          <a href="#"
             class="text-blue-600 hover:underline" target="_blank"
-            rel="noopener noreferrer">Urs Zimmermann</a><sup>2</sup> •
-          <a href="mailto:michael.arnold[at]aptiv.com"
-            class="text-blue-600 hover:underline" target="_blank"
-            rel="noopener noreferrer">Michael Arnold</a><sup>2</sup> •
+            rel="noopener noreferrer">Ori Maoz</a><sup>2</sup> •
           <a href="https://osvia.github.io/team.html"
             class="text-blue-600 hover:underline" target="_blank"
             rel="noopener noreferrer">Matthias Rottmann</a><sup>3</sup>
@@ -99,7 +94,7 @@
           <br>
           <sup>3</sup> Institute of Computer Science, Osnabrück University, Osnabrück, Germany
           <br><br>
-          Winter Conference on Applications of Computer Vision (WACV), 2026
+          British Machine Vision Conference (BMVC), 2025
         </p>
 
         <!-- LOGO STRIP -->
@@ -132,7 +127,7 @@
         <div class="flex flex-wrap justify-center gap-3 mt-6">
 
           <!-- Paper / Document icon -->
-          <a href="https://arxiv.org/abs/2505.16594"
+          <a href="https://arxiv.org/abs/2505.12753"
             class="inline-flex items-center px-6 py-3 rounded-xl bg-blue-600 text-white font-semibold hover:bg-blue-700">
             <!-- Heroicons outline: DocumentText -->
             <svg class="w-5 h-5 mr-2" fill="none" viewBox="0 0 24 24" stroke="currentColor"
@@ -149,11 +144,20 @@
         </div>
 
 
-        <!-- Title Images Row (unchanged) -->
-        <div class="flex flex-wrap justify-center gap-2 mt-6">
-          <img src="./assets/images/figure1.png"  alt="Title image 1"
-              class="h-64 w-auto max-w-[100%] md:max-w-none rounded-lg shadow-sm">
+        <!-- Hero Media -->
+        <div class="mt-6 mx-auto max-w-2xl rounded-lg shadow-sm overflow-hidden">
+          <div class="aspect-video">
+            <iframe
+              class="w-full h-full"
+              src="https://www.youtube-nocookie.com/embed/ggMauhnAWkA?modestbranding=1&rel=0"
+              title="YouTube video player"
+              allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+              allowfullscreen
+              loading="lazy"
+            ></iframe>
+          </div>
         </div>
+        
       </header>
       <!-- /HERO -->
 
@@ -162,13 +166,7 @@
       <section id="abstract" class="space-y-4 lg:max-w-6xl  lg:mx-auto">
         <h2 class="text-2xl font-semibold">Abstract</h2>
         <p>
-          We introduce a fully automated LiDAR‑based captioning pipeline that produces object‑level,
-      temporally grounded descriptions of street‑scene videos. The captions encode lane position,
-      motion relative to the ego vehicle, and temporal transitions (e.g., lane changes), enabling
-      small, efficient video captioners (SwinBERT) trained on front‑camera frames alone to learn
-      richer temporal semantics. Across three datasets (proprietary, Waymo, NuScenes), models
-      trained with our captions show stronger temporal understanding and markedly reduced reliance
-      on static visual backgrounds, as quantified by our Visual Bias Measure (VBM).
+          Multi-object tracking from LiDAR point clouds presents unique challenges due to the sparse and irregular nature of the data, compounded by the need for temporal coherence across frames. Traditional tracking systems often rely on hand-crafted features and motion models, which can struggle to maintain consistent object identities in crowded or fast-moving scenes. We present a lidar-based two-staged DETR inspired transformer; a smoother and tracker. The smoother stage refines lidar object detections, from any off-the-shelf detector, across a moving temporal window. The tracker stage uses a DETR-based attention block to maintain tracks across time by associating tracked objects with the refined detections using the point cloud as context. The model is trained on the datasets nuScenes and KITTI in both online and offline (forward peeking) modes demonstrating strong performance across metrics such as ID-switch and multiple object tracking accuracy (MOTA). The numerical results indicate that the online mode outperforms the lidar-only baseline and SOTA models on the nuScenes dataset, with an aMOTA of 0.724 and an aMOTP of 0.475, while the offline mode provides an additional 3 pp aMOTP.
         </p>
       </section>
 
@@ -176,63 +174,29 @@
       <section id="method" class="space-y-6 bg-gray-100 rounded-xl px-6 py-8 lg:max-w-6xl lg:mx-auto">
         <h2 class="text-2xl font-semibold">Method Overview</h2>
         <p>
-          Cross‑modality supervision: generate captions from LiDAR, train only on RGB front camera video recording.
+          The pipeline consists of a smoother transformer followed by a tracking transformer.
         </p>
         <div class="grid md:grid-cols-1 gap-x-6 gap-y-8">
           <!-- Column 1: nd‑to‑end data → caption → training pipeline -->
           <div class="space-y-3">
-            <h3 class="text-xl font-semibold mb-3 text-center">End‑to‑end data → caption → training pipeline</h3>
             <figure class="rounded-lg overflow-hidden shadow-sm">
-              <img src="./assets/images/method_image0.png" 
-                  alt="method_image0" 
+              <img src="./assets/images/overall_architecture.png" 
+                  alt="Overall Architecture" 
                   loading="lazy" 
                   class="w-full h-auto object-cover">
             </figure>
           </div>
 
-          <!-- Column 2: LiDAR‑to‑mask projection (convex hull) -->
-          <div class="space-y-3">
-            <h3 class="text-xl font-semibold mb-3 text-center">LiDAR‑to‑mask projection (convex hull)</h3>
-            <figure class="rounded-lg overflow-hidden shadow-sm">
-              <img src="./assets/images/method_image1.png" 
-                  alt="method_image1" 
-                  loading="lazy" 
-                  class="w-full h-auto object-cover">
-            </figure>
-          </div>
         </div>
         <!-- Additional text -->
           <p>
-            <h3 class="text-l font-semibold mb-3">Step 1: Host segmentation.</h3>
-            Split videos into action‑consistent segments using ego speed and yaw‑rate (motion & direction tags).
-            <h3 class="text-l font-semibold mb-3">Step 2: Neighbor tracking.</h3>
-            Detect & track moving agents in LiDAR; restrict to a forward neighborhood visible in the front camera.
-            <h3 class="text-l font-semibold mb-3">Step 3: Tagging.</h3>
-            Assign per‑timestamp lane (left/right/host/oncoming/left‑lateral/right‑lateral) and motion (approach/away/constant/stationary) from relative pose & distance changes.
-            <h3 class="text-l font-semibold mb-3">Step 4: Template captions.</h3>
-            Compress tag time‑series into unified tag sequences and render multi‑sentence captions describing initial state and subsequent transitions.
-            <h3 class="text-l font-semibold mb-3">Step 5 (optional): Object masks.</h3>
-            Project object LiDAR points to the image, build a tight convex‑hull mask, and overlay to focus learning on the captioned agent.
-            <h3 class="text-l font-semibold mb-3">Train: SwinBERT on RGB only.</h3>
-            Use the captions for masked‑language training on uniformly sampled frames from front‑camera clips.
-            
+            <h3 class="text-l font-semibold mb-3">Step 1:</h3>
+            Detect objects using off-the-shelf object detector.
+            <h3 class="text-l font-semibold mb-3">Step 2:</h3>
+            Refine object identities and trajectories using Smoother temporal attention.
+            <h3 class="text-l font-semibold mb-3">Step 3:</h3>
+            Train the tracker model using features from lidar point clouds, detections and track queries from previous frame.
           </p>
-      </section>
-
-      <!-- Key Contributions and Results -->
-      <section id="contributions" class="space-y-6 bg-gray-100 rounded-xl px-6 py-8 lg:max-w-6xl lg:mx-auto">
-        <h2 class="text-2xl font-semibold">Key Contributions and Results</h2>
-        <p>
-          <b>• Scalable, generic captioning from LiDAR</b> for temporally rich, object‑level descriptions without human labels.
-          <br>
-          <b>• Temporal understanding beats strong baselines</b> on captioning and retrieval across seen and unseen datasets.
-          <br>
-          <b>• Visual Bias Measure (VBM):</b> a simple BLEU‑based metric that quantifies reliance on static visual similarity 
-          <br>⠀|-> training with our captions <b>consistently lowers VBM</b>. 
-          <br>
-          <b>• Mask‑augmented training</b> further improves generalization by directing attention to the correct object of interest.
-
-        </p>
       </section>
       
       <!-- METRICS -->
@@ -245,17 +209,16 @@
           <!-- Explanatory text -->
           <div class="space-y-3 mb-4 min-[1360px]:mb-0 min-[1360px]:w-1/3">
               <h3 class="font-semibold text-lg">
-                Captioning Quality (BLEU4 / CIDEr / SPICE)
+                Overall tracking results on nuScenes Test Set
               </h3>
               <p class="text-sm leading-relaxed">
-                Trained on a proprietary dataset with single‑sentence captions, the model generalizes to Waymo and NuScenes,
-                outperforming InternVideo, ViCLIP, and CLIP—even when those baselines only choose from candidate captions.
+                Comparison of LiDAR only tracking methods. Best method in bold, second best underlined.
               </p>
           </div>
       
           <!-- Chart -->
           <div class="flex-1 overflow-x-auto">
-              <img src="./assets/images/table1.png" alt="table1" class="chart-image w-full border rounded-md" />
+              <img src="./assets/images/test_result.png" alt="table1" class="chart-image w-full border rounded-md" />
           </div>
           </div>
       
@@ -266,99 +229,48 @@
               <div
                   class="space-y-3 mb-4 min-[1360px]:mb-0 min-[1360px]:w-1/3">
                   <h3 class="font-semibold text-lg">
-                    Visual Bias Measure (VBM)
+                    Detection metrics on nuScenes validation set 
                   </h3>
                   <p class="text-sm leading-relaxed">
-                    BM measures the % drop in retrieval BLEU4 when same‑time of recording/same neighbors are excluded.
-                    Lower is better (less reliance on static appearance). Our training yields the <b>lowest VBM</b> across
-                    datasets, with mask augmentation reducing VBM by ~<b>5 pp</b> on Waymo and <b>2 pp</b> on NuScenes.
+                    Best method in bold.
                   </p>
               </div>
 
               <!-- Chart -->
               <div class="flex-1 overflow-x-auto">
-                  <img src="./assets/images/table2.png" alt="table2" class="chart-image w-full border rounded-md"/>
+                  <img src="./assets/images/smoother_results.png" alt="table2" class="chart-image w-full border rounded-md"/>
               </div>
           </div>
-
-        <!-- ── Zero‑Shot Generalization to Longer Captions ─────────────────────────────────── -->
-        <div
-        class="flex flex-col min-[1360px]:flex-row min-[1360px]:items-start min-[1360px]:gap-8">
-        <!-- Explanatory text -->
-        <div
-            class="space-y-3 mb-4 min-[1360px]:mb-0 min-[1360px]:w-1/3">
-            <h3 class="font-semibold text-lg">
-              Zero‑Shot Generalization to Longer Captions
-            </h3>
-            <p class="text-sm leading-relaxed">
-              Despite training only on single‑sentence captions, our embeddings retrieve videos for <b>two‑sentence</b>
-          captions (more complex maneuvers) with a ~<b>20% higher</b> mean BLEU4 than the best baseline (violin‑plot analysis).
-            </p>
-        </div>
-
-        <!-- Chart -->
-        <div class="flex-1 overflow-x-auto">
-            <img src="./assets/images/table3.png" alt="table3" class="chart-image w-full border rounded-md"/>
-        </div>
-    </div>
-
       </section>
   
   
 
-      <!-- Additional images -->
-      <section id="images" class="space-y-6 bg-gray-100 rounded-xl px-6 py-8 lg:max-w-6xl lg:mx-auto">
+      <!-- Qualitative Results -->
+      <section id="results" class="space-y-6 bg-gray-100 rounded-xl px-6 py-8 lg:max-w-6xl lg:mx-auto">
+        <h2 class="text-2xl font-semibold">Qualitative Results</h2>
+        <p>
+          Comparison between our method(LiDAR MOT-DETR) and 3DMOTFormer.<br>Both methods use centerpoint detections.
+        </p>
 
         <!-- ── IMAGE GRID ───────────────────────────────────────── -->
-        <div class="grid grid-cols-2 gap-3 md:gap-4 place-items-center">
+        <div class="grid grid-cols-1 gap-3 md:gap-4 place-items-center">
 
           <!-- ── ROW 1 — Segmentation GTs ── -->
           <figure class="text-center w-full">
-            <img src="./assets/images/additional_image_0.png" id="gt-orig"
+            <img src="./assets/images/comparison.png" id="gt-orig"
               alt="additional_image_0"
-              class="rounded-lg shadow-sm max-h-72 w-full object-contain">
-          </figure>
-
-          <figure class="text-center w-full">
-            <img src="./assets/images/additional_image_1.png" id="gt-eed"
-              alt="additional_image_1"
-              class="rounded-lg shadow-sm max-h-72 w-full object-contain">
-          </figure>
-
-          <!-- ── ROW 2 — Input Images ── -->
-          <figure class="text-center w-full">
-            <img src="./assets/images/additional_image_2.png" id="img-orig"
-              alt="additional_image_2"
-              class="rounded-lg shadow-sm max-h-72 w-full object-contain">
-          </figure>
-
-          <figure class="text-center w-full">
-            <img src="./assets/images/additional_image_3.png" id="img-eed"
-              alt="additional_image_3"
-              class="rounded-lg shadow-sm max-h-72 w-full object-contain">
+              class="rounded-lg max-h-72 w-full object-contain">
           </figure>
         </div>
-      </section>
-
-      <!-- Broader Impact & Potential -->
-      <section id="impact" class="space-y-4 lg:max-w-6xl  lg:mx-auto">
-        <h2 class="text-2xl font-semibold">Broader Impact & Potential</h2>
-        <p>
-          • <b>Scaling data generation:</b> The trained video captioning model can be used to generate temporal object captions for camera-only dataset. Additionally, any LiDAR‑equipped dataset can be converted into rich temporal captioning dataset at low cost using out pseudo-labeling method.  
-          <br>
-          • <b>Beyond captioning:</b> The learned embeddings improve <b>video retrieval</b> by maneuvers and can aid <b>trajectory forecasting, risk reasoning, or behavior search</b> tools. 
-          <br>
-          • <b>Temporal understanding metric:</b> VBM, a metric to quantitaively evaluate temporal understanding capabilities of models. Lower VBM suggests robustness to background changes—useful for being agnostic to geographic and seasonal shifts.
-        </p>
       </section>
 
       <!-- RESOURCES -->
       <section id="resources" class="space-y-6 px-6 py-8 lg:max-w-6xl lg:mx-auto">
         <h2 class="text-2xl font-semibold">Resources & Links</h2>
         <ul class="list-disc list-inside space-y-2">
-          <li><a href="https://arxiv.org/pdf/2505.16594" class="text-blue-600 hover:underline">PDF (5.35 MB)</a></li>
-          <li><a href="https://arxiv.org/abs/2505.16594" class="text-blue-600 hover:underline">arXiv abstract &amp; BibTeX</a></li>
-          <li><a href="#" class="text-blue-600 hover:underline">Code (coming soon)</a></li>
+          <li><a href="https://arxiv.org/pdf/2505.12753" class="text-blue-600 hover:underline">PDF (1.79 MB)</a></li>
+          <li><a href="https://arxiv.org/abs/2505.12753" class="text-blue-600 hover:underline">arXiv abstract &amp; BibTeX</a></li>
+          <li><a href="https://bmvc2025.bmva.org/proceedings/220/" class="text-blue-600 hover:underline">Official BMVC proceeding</a></li>
         </ul>
       </section>
 
@@ -386,12 +298,14 @@
                       bg-gray-100 rounded-lg p-3
                       text-[0.70rem] leading-5 font-mono
                       text-gray-700 select-all">
-                      @inproceedings{temporal-object-captioning-wacv2026,
-                        title={Temporal Object Captioning for Street Scene Videos from LiDAR Tracks},
-                        author={To be updated post-review},
-                        booktitle={WACV},
-                        year={2026},
-                        note={Under review; project page}}
+                      @inproceedings{Teye_2025_BMVC,
+                        author    = {Martha Teiko Teye and Ori Maoz and Matthias Rottmann},
+                        title     = {LiDAR MOT-DETR: A LiDAR-based Two-Stage Transformer for 3D Multiple Object Tracking},
+                        booktitle = {36th British Machine Vision Conference 2025, {BMVC} 2025, Sheffield, UK, November 24-27, 2025},
+                        publisher = {BMVA},
+                        year      = {2025},
+                        url       = {https://bmva-archive.org.uk/bmvc/2025/papers/Paper_220/paper.pdf}
+                        }
           </pre>
 
           <!-- copy‑to‑clipboard button -->
@@ -424,7 +338,7 @@
         <h2 class="text-2xl font-semibold">Contact</h2>
         <p class="text-sm">Have questions or want to collaborate? Reach out:</p>
         <ul class="space-y-1 text-sm">
-          <li>Email: <a href="mailto:gopinathan[at]uni-wuppertal.de" class="text-blue-600 hover:underline">gopinathan[at]uni-wuppertal.de</a></li>
+          <li>Email: <a href="mailto:m.teye-hk[at]uni-wuppertal.de" class="text-blue-600 hover:underline">m.teye-hk[at]uni-wuppertal.de</a></li>
         </ul>
       </section>
 
